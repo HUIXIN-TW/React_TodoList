@@ -1,1 +1,6 @@
-# React_TodoList
+# Todo List
+
+# Tech
+- React
+- JavaScript
+- Node
