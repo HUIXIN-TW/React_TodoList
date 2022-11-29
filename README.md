@@ -40,9 +40,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-# Deploy React + Vite app
+# Deploying React + Vite app
 
-## Setup Github Page
 If you are using a framework template, all you need to do is open `vite.config.js`
 
 ```
