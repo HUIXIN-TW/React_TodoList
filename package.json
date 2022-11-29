@@ -1,6 +1,6 @@
 {
-  "name": "todo-app-react",
-  "homepage": "https://huixin-tw.github.io/TodoList",
+  "name": "todo-app",
+  "homepage": "https://huixin-tw.github.io/todoList",
   "private": true,
   "version": "0.0.0",
   "type": "module",
