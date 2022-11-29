@@ -12,11 +12,12 @@ const ToDo = ({todo, index, handleToggle, markTodo, removeTodo}) => {
     return (
         <div>
         <Row>
+            {/* need to be consisent with toggle
             <Col sm="auto">
             <Form>
                 <Form.Check onClick={() => markTodo(index)}></Form.Check>{' '}
             </Form>
-            </Col>
+            </Col> */}
             <Col style={{disply:'flex', justifyContent:'left'}}>
                 <div
                     style={{ textDecoration: todo.complete ? "line-through" : "" }}

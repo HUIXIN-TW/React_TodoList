@@ -33,7 +33,7 @@ function App() {
     copy = [...copy, { id: toDoList.length + 1, task: userInput, complete: false }];
     setToDoList(copy);
   }
-
+  {/*conflict with toggle*/}
   const markTodo = index => {
     let copy = [...toDoList];
     copy[index].complete = !copy[index].complete;
