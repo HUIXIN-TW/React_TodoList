@@ -39,3 +39,39 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+# Deploy React + Vite app
+
+## Setup Github Page
+If you are using a framework template, all you need to do is open `vite.config.js`
+
+```
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: "./"
+})
+```
+
+Navigate to the 'Actions' tab on your GitHub repository.
+![Where is Action](./src/assets/Action.png)
+
+- Change `node-version` to your version
+- Remove `run: npm test`
+- Add the below codes
+
+```
+- name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+```
+
+Then, commit new file
+
+Navigate to the 'Setting' tab on your GitHub repository.
+![Set Github page](./src/assets/Page.png)
