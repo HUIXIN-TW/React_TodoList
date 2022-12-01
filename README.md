@@ -74,3 +74,5 @@ Then, commit new file
 
 Navigate to the 'Setting' tab on your GitHub repository.
 ![Set Github page](./src/assets/Page.png)
+
+[Visit my todo page.](https://huixin-tw.github.io/todoList/)
