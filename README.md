@@ -1,3 +1,7 @@
+# A glance at my work
+
+[Visit my todo page.](https://huixin-tw.github.io/todoList/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -74,5 +78,3 @@ Then, commit new file
 
 Navigate to the 'Setting' tab on your GitHub repository.
 ![Set Github page](./src/assets/Page.png)
-
-[Visit my todo page.](https://huixin-tw.github.io/todoList/)
